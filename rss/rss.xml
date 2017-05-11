@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Web de notícies series</title>
+        <link>http://www.noviluni.com/news.html</link>
+        <description>Pàgina web sobre notícies diaries molt importants.</description>
+        <item>
+            <title>Primera notícia</title>
+            <link>http://www.noviluni.com/news2.html</link>
+            <description>Nova notícia sobre...</description>
+            <pubDate>Tue, 09 May 2017 22:54:49 GMT</pubDate>
+        </item>
+        <item>
+            <title>Segona notícia</title>
+            <link>http://www.noviluni.com/news2.html</link>
+            <description>Nova notícia sobre...</description>
+            <pubDate>Tue, 01 May 2017 12:50:02 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
