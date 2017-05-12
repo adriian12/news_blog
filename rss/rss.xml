@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Web de notícies series</title>
+        <title>Tecnología del futuro</title>
+        <atom:link href="http://www.noviluni.com/news.html" rel="self" type="application/rss+xml" />
         <link>http://www.noviluni.com/news.html</link>
-        <description>Pàgina web sobre notícies diaries molt importants.</description>
+        <description>Página web de noticias sobre lo último en tecnología.</description>
+        <language>es-ES</language>
         <item>
-            <title>Primera notícia</title>
+            <title>Amazon ya a hecho pruebas para entregar sus paquetes con drones</title>
             <link>http://www.noviluni.com/news2.html</link>
             <description>Nova notícia sobre...</description>
-            <pubDate>Tue, 09 May 2017 22:54:49 GMT</pubDate>
+            <pubDate>Fri, 05 May 2017 22:54:49 EST</pubDate>
+            <content></content>
         </item>
         <item>
             <title>Segona notícia</title>
             <link>http://www.noviluni.com/news2.html</link>
             <description>Nova notícia sobre...</description>
-            <pubDate>Tue, 01 May 2017 12:50:02 GMT</pubDate>
+            <pubDate>Mon, 01 May 2017 12:50:02 GMT</pubDate>
         </item>
     </channel>
 </rss>
