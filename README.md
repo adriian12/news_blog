@@ -1,2 +1,2 @@
-# news_blog
-Simple news web build with Bootstrap and jQuery
+# Blog de noticias
+Web simple de noticias construido conn Bootstrap y jQuery.

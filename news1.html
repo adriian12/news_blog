@@ -2,44 +2,84 @@
 
 <head>
     <meta charset="UTF-8">
-	<!-- <link type="stylesheet" type="text/css" href="css/main.css"> -->
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <title>Amazon ya ha hecho pruebas para entregar sus paquetes con drones</title>
 </head>
 
 <body>
-<div class="container">
-    <h1>Amazon ya ha hecho pruebas para entregar sus paquetes con drones</h1>
-<p> Entras en Amazon, haces click sobre envío instantáneo, y en menos de 30
-    minutos lo tienes en casa. ¿Parece algo surrealista? Para Amazon no.</p>
-<p> Amazon ha estado realizado diferentes experimentos para desarrollar lo que
-    se cree el futuro en la entrega de paquetes y después de varios intentos ya
-    ha conseguido muchos buenos resultados. Su funcionamiento es el siguiente:
-    En el momento que el cliente compra un producto, este sale de un centro de
-    logística cercano, pero no como cabría esperar, en furgoneta o en coche,
-    sino que se carga en un dron eléctrico completamente autónomo y
-    pre-programado con las coordenadas de entrega.</p>
-    <p>El dron hace uso de un sistema de <a href="#">IA</a> y, guiado por GPS,
-    vuela siempre por debajo de los 120 metros de altura hasta que llega al
-    destino, donde el cliente ha colocado una pequeña pista de aterrizaje
-    (una diana característica para el dron) en el lugar exacto que desea recibir
-    el paquete.</p>
+    <div class="container">
+        <h1>Amazon ya ha hecho pruebas para entregar sus paquetes con drones</h1>
+        <p> Entras en <i>Amazon.com</i>, encuentras el producto que necesitas, haces click sobre <i>Prime Air</i>, y en menos de 30 minutos lo tienes en casa. ¿Parece algo surrealista? Pues parece que <i>Amazon</i> quiere demostrar que no.</p>
+        <div class="col-md-6">
+            <img class="img-responsive" src="img/amazon-prime-air-drone.jpg" alt="Drone de Amazon">
+        </div>
+        <p> <i>Amazon</i> ha estado realizado diferentes experimentos para desarrollar lo que cree que deteminará el futuro en la entrega de paquetes y ya lo ha conseguido. Ahora solo necesita que las leyes permitan ponerlo en marcha. Su funcionamiento es
+            el siguiente: En el momento que el cliente compra un producto, este sale de un centro de logística cercano, pero no como cabría esperar, en furgoneta o en coche, sino que se carga en un dron eléctrico completamente autónomo y pre-programado
+            con las coordenadas de entrega.</p>
+        <p>El dron hace uso de un sistema de <a href="#">IA</a> y, guiado por GPS, vuela siempre por debajo de los 120 metros de altura hasta que llega al destino, donde el cliente ha colocado una pequeña pista de aterrizaje (una diana característica para
+            el dron) en el lugar exacto que desea recibir el paquete.</p>
+        <p>¡Es verdaderamente sorprendente!</p>
+        <p>Puedes ver todo el proceso en el siguiente video promocional de <i>Amazon</i>.</p>
+        <br/>
+        <div class="row">
+            <div class="embed-responsive embed-responsive-16by9 col-xs-12 col-sm-8 col-md-10 col-lg-10">
+                <iframe class="embed-responsive-item" src="//www.youtube.com/embed/98BIu9dpwHU"></iframe>
+            </div>
+        </div>
+        <p>Por el momento, el único límite es el peso de la mercancía, que en este momento es de 2,2 Kg de peso, y las leyes todavía por aprobar de muchos países, pero se estima que dentro de tres años esto dejará de ser un simple experimento y será la realidad
+            diaria de muchos.</p>
+        <br/>
 
-    <p>Es verdaderamente sorprendente!</p>
-    <p>Puedes ver todo el proceso en el siguiente video.</p>
+        <div class="text-center row">
+            <h3>¿Cómo te hace sentir esta noticia?</h3>
+            <div class="btn-group" id="buttons">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+                <span class="glyphicon glyphicon-thumbs-up"></span>
+                Me ha gustado
+            </button>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+                <span class="glyphicon glyphicon-ok"></span>
+                Está bien
+            </button>
+                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">
+                <span class="glyphicon glyphicon-thumbs-down"></span>
+                Prefiero otras
+            </button>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+                <span class="glyphicon glyphicon-remove"></span>
+                Definitivamente no me gusta
+            </button>
+            </div>
+        </div>
+        <br/>
 
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="//www.youtube.com/embed/98BIu9dpwHU"></iframe>
-    </div>
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="text-right">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="text-center">
+                            <h2>¡Gracias por compartir tu opinión! <br/> <br/><span class="glyphicon glyphicon glyphicon-ok green gi-4x"></span></div></h2>
+                            <div class="text-right">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
 
-    <p>El límite impuesto son 2,2 Kg de peso, y se espera que en menos de tres
-    años esto deje de ser un simple experimento y sea la realidad de muchos.</p>
+                </div>
+            </div>
 
-</div>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-    <!-- <script src="news.js"></script> -->
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/news.js"></script>
 </body>
 
 </html>
