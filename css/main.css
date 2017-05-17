@@ -6,3 +6,29 @@
 .gi-4x{
     font-size: 4em;
 }
+
+body {
+    background-color: black;
+}
+
+.carta-personalizada {
+    border: solid;
+    border-width: 0.25em;
+    border-color: #337ab7;
+    width:27.5em;
+    padding:1em;
+    display:"inline-block";
+    margin: 0.5em;
+}
+
+.imagen-carta-personalizada {
+    width: 25em;
+}
+
+#anuncio {
+    width:300px;
+    background-color:black;
+    height:100px;
+    position:fixed;
+    right:0px;
+}
