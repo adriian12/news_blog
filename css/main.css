@@ -1,36 +1,8 @@
-# Para el modal
-.green {
-    color: green;
+body {
+    /*background-color: black !important;*/
 }
 
-.gi-4x{
-    font-size: 4em;
-}
-
-/*.carta-personalizada {
-    border: solid;
-    border-width: 2px;
-    border-color: #337ab7;
-       padding:1em;
-    display:"inline-block";
-    margin: 0.5em;
-}
-
-.carta-personalizada-primera {
-    border: solid;
-    border-width: 0.25em;
-    border-color: #337ab7;
-    padding:1em;
-    display:"inline-block";
-    margin: 0.5em;
-
-.imagen-carta-personalizada {
-    width: 25em;
-}
-}*/
-
-
-.patito {
+.contenedor-noticias {
     position:absolute;
     left:0px;
     right:300px;
@@ -45,9 +17,10 @@
     text-align: center;
 }
 
-/*.news {
-box-shadow: 10px 10px 5px #888888 !important;
-}*/
+.jumbotron h1, .jumbotron p  {
+    padding-left: 5%;
+}
+
 
 
 /*Anuncios*/
@@ -58,7 +31,7 @@ box-shadow: 10px 10px 5px #888888 !important;
 #anuncios-vertical {
     display:block;
     width:300px;
-    background-color: grey;
+    background-color: white;
     height:300%; /*Cambiar!!*/
     position:absolute;
     right:0px;
@@ -94,8 +67,6 @@ box-shadow: 10px 10px 5px #888888 !important;
     margin-left: -200%; /* magic! */
 }
 
-
-
 @media (min-width: 900px) {
     #anuncios-vertical {
         display:block;
@@ -115,10 +86,22 @@ box-shadow: 10px 10px 5px #888888 !important;
         display:block;
     }
 
-    .patito {
+    .contenedor-noticias {
         position:absolute;
         left:0px;
         right:0px;
         padding: 50px;
     }
 }
+/*FIN Anuncios*/
+
+
+/* Modal opinión */
+.green {
+    color: green;
+}
+
+.gi-4x{
+    font-size: 4em;
+}
+/* FIN Modal opinión*/
