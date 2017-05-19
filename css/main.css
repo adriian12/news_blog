@@ -1,5 +1,4 @@
-
-
+# Para el modal
 .green {
     color: green;
 }
@@ -8,47 +7,118 @@
     font-size: 4em;
 }
 
-.carta-personalizada {
+/*.carta-personalizada {
     border: solid;
     border-width: 2px;
     border-color: #337ab7;
-   /* width:27.5em;*/
-    padding:1em;
+       padding:1em;
     display:"inline-block";
     margin: 0.5em;
 }
-
 
 .carta-personalizada-primera {
     border: solid;
     border-width: 0.25em;
     border-color: #337ab7;
-    /*width:36em;*/
     padding:1em;
     display:"inline-block";
     margin: 0.5em;
-}
-
 
 .imagen-carta-personalizada {
     width: 25em;
 }
+}*/
 
-#contenedor-anuncio {
-    width: 30%;
-}
-
-#anuncio {
-    width:300px;
-    background-color:black;
-    height:100%;
-    position:absolute;
-    right:0px;
-}
 
 .patito {
     position:absolute;
     left:0px;
     right:300px;
-      padding: 50px;
+    padding: 50px;
+}
+
+.panel .img-responsive {
+    margin: 0 auto;
+}
+
+.btn {
+    text-align: center;
+}
+
+/*.news {
+box-shadow: 10px 10px 5px #888888 !important;
+}*/
+
+
+/*Anuncios*/
+#contenedor-anuncio-vertical {
+    width: 30%;
+}
+
+#anuncios-vertical {
+    display:block;
+    width:300px;
+    background-color: grey;
+    height:300%; /*Cambiar!!*/
+    position:absolute;
+    right:0px;
+}
+
+.img-anuncio-v {
+    width: 300px;
+    padding-bottom:10px;
+}
+
+#contenedor-anuncio-horizontal {
+    height: 90px;
+    bottom: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+#anuncios-horizontal {
+    display:none;
+    background-color: white;
+    height:90px;
+    position:inherit;
+    bottom:0px;
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img-anuncio-h {
+    position: relative;
+    left: 100%; /* move the whole width of the image to the right */
+    margin-left: -200%; /* magic! */
+}
+
+
+
+@media (min-width: 900px) {
+    #anuncios-vertical {
+        display:block;
+    }
+
+    #anuncios-horizontal {
+        display:none;
+    }
+}
+
+@media (max-width: 900px) {
+    #anuncios-vertical {
+        display:none;
+    }
+
+    #anuncios-horizontal {
+        display:block;
+    }
+
+    .patito {
+        position:absolute;
+        left:0px;
+        right:0px;
+        padding: 50px;
+    }
 }
