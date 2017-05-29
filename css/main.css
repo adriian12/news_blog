@@ -2,6 +2,10 @@ body {
     /*background-color: black !important;*/
 }
 
+.texto-blanco {
+    color: white;
+}
+
 .contenedor-noticias {
     position:absolute;
     left:0px;
@@ -21,8 +25,6 @@ body {
     padding-left: 5%;
 }
 
-
-
 /*Anuncios*/
 #contenedor-anuncio-vertical {
     width: 30%;
@@ -31,7 +33,6 @@ body {
 #anuncios-vertical {
     display:block;
     width:300px;
-    background-color: white;
     height:300%; /*Cambiar!!*/
     position:absolute;
     right:0px;
@@ -67,7 +68,7 @@ body {
     margin-left: -200%; /* magic! */
 }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
     #anuncios-vertical {
         display:block;
     }
@@ -75,9 +76,23 @@ body {
     #anuncios-horizontal {
         display:none;
     }
+
+
+    .address-bar {
+        display: block;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: white !important;
+    }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     #anuncios-vertical {
         display:none;
     }
@@ -90,10 +105,20 @@ body {
         position:absolute;
         left:0px;
         right:0px;
-        padding: 50px;
+        padding: 20px;
+    }
+
+    .address-bar {
+        display:none;
     }
 }
 /*FIN Anuncios*/
+
+
+#titulo-importante {
+    color:white !important;
+    text-shadow: 2px 2px #000;
+}
 
 
 /* Modal opinión */
