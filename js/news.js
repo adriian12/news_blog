@@ -1,4 +1,36 @@
+var noticias_sin_cargar_1 = true;
+var noticias_sin_cargar_2 = true;
 
+// Cargar JSONs cuando se hace scroll (dos veces)
+$(window).on("scroll", function() {
+	var scrollHeight = $(document).height();
+	var scrollPosition = $(window).height() + $(window).scrollTop();
+	if ((scrollHeight - scrollPosition) / scrollHeight === 0 && noticias_sin_cargar_1) {
+        noticias_sin_cargar_1 = false;
+
+        $.getJSON("data/1.json", function(jsonObject) {
+            cargarNoticias(jsonObject);
+        });
+    } else if ((scrollHeight - scrollPosition) / scrollHeight === 0 && noticias_sin_cargar_2) {
+                noticias_sin_cargar_2 = false;
+                $.getJSON("data/2.json", function(jsonObject) {
+                    cargarNoticias(jsonObject);
+                });
+    }
+});
+// FIN Cargar JSONs cuando se hace scroll (dos veces)
+
+
+
+// Dibujar noticia a partir de JSON
+function cargarNoticias(json){
+    $.each(
+        json, function( i, noticia) {
+            $("#cuerpo-noticias").append("<div class='col-lg-6 col-md-6 col-sm-12 col-xs-12'><div class='panel panel-info z-depth-5'><div class='panel-heading'>"+noticia.titulo+"</div><div class='panel-body'><img class='img-responsive' src='"+noticia.imgUrl+"' alt='"+noticia.imgAlt+"' /><div id='fecha'>"+noticia.fecha+"</div></div><div class='panel-footer clearfix'><p>"+noticia.descripcion+"</p><a href='"+noticia.url+"' class='btn btn-primary pull-right'>Leer más...</a></div></div></div>");
+        }
+    );
+}
+// FIN Dibujar noticia a partir de JSON
 
 
 // Colocar botones para opinar sobre la noticia
@@ -12,54 +44,7 @@ $(document).ready(function() {
 });
 
 function colocarBotones(){
-    if($(window).width() <=700) $('#buttons').addClass("btn-group-vertical");
-    else $('#buttons').removeClass("btn-group-vertical");
+    if($(window).width() <=700) $("#buttons").addClass("btn-group-vertical");
+    else $("#buttons").removeClass("btn-group-vertical");
 }
-
 // FIN Colocar botones para opinar sobre la noticia
-
-
-
-
-// A PARTIR DE AQUÍ BAJA Y AÑADE
-
-// (function($) {
-//
-//   $.fn.visible = function(partial) {
-//
-//       var $t            = $(this),
-//           $w            = $(window),
-//           viewTop       = $w.scrollTop(),
-//           viewBottom    = viewTop + $w.height(),
-//           _top          = $t.offset().top,
-//           _bottom       = _top + $t.height(),
-//           compareTop    = partial === true ? _bottom : _top,
-//           compareBottom = partial === true ? _top : _bottom;
-//
-//     return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
-//
-//   };
-//
-// })(jQuery);
-//
-// var win = $(window);
-//
-// var allMods = $(".panel");
-//
-// allMods.each(function(i, el) {
-//   var el = $(el);
-//   if (el.visible(true)) {
-//     el.addClass("already-visible");
-//   }
-// });
-//
-// win.scroll(function(event) {
-//
-//   allMods.each(function(i, el) {
-//     var el = $(el);
-//     if (el.visible(true)) {
-//       el.addClass("come-in");
-//     }
-//   });
-//
-// });

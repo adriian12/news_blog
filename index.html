@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="alternate" type="application/rss+xml" title="rss de la web" href="rss/rss.xml">
+	<link rel="alternate" type="application/rss+xml" title="noticias publicadas" href="rss/rss.xml">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
@@ -88,12 +88,13 @@
 	<div id="container-fluid" class="contenedor-noticias">
 		<div class="row come-in">
 			<h2 class="text-center" id="titulo-importante">Últimas noticias</h2>
-			<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12" id="noticia-principal">
+			<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12" id="cuerpo-noticias">
 				<div class="panel panel-info">
 					<div class="panel-heading">
 						<h4>Amazon ya ha hecho pruebas para entregar sus paquetes con drones</h4></div>
 					<div class="panel-body text-center">
 						<img class="img-responsive" src="img/amazon-prime-air-drone.jpg" alt="dron de amazon" />
+						<div id="fecha">12/05/2017 | 10:09</div>
 					</div>
 					<div class="panel-footer clearfix">
 						<p>Entras en Amazon.com, encuentras el producto que necesitas, haces click sobre Prime Air, y en menos de 30 minutos lo tienes en casa. ¿Parece algo surrealista? Pues parece que Amazon quiere demostrar que no. Amazon ha estado realizado diferentes
@@ -101,17 +102,13 @@
 						<a href="news1.html" class="btn btn-primary pull-right">Leer más...</a>
 					</div>
 				</div>
-				<!-- <div class="panel panel-default fadeInDown">
-	        	<div class="panel-body">
-					<p>AAAAAAAAAAAAAAAAH</p>
-	        		</div>
-				</div> -->
 
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<div class="panel panel-info z-depth-5">
 						<div class="panel-heading">Tesla presentará en septiembre el prototipo de camión eléctrico</div>
 						<div class="panel-body">
 							<img class="img-responsive" src="img/elon-musk.jpg" alt="Elon musk ante la audiencia" />
+							<div id="fecha">03/05/2017 | 12:56</div>
 						</div>
 						<div class="panel-footer clearfix">
 							<p>Elon Musk acudió este jueves a las redes sociales para anunciar que el próximo mes de septiembre presentará el primer prototipo de su próxima creación: un camión eléctrico. El fundador y consejero delegado de Tesla ya anticipó el pasado mes de
@@ -126,6 +123,7 @@
 						<div class="panel-heading">El mejor jugador de Go pierde frente a la inteligencia artificial de Google</div>
 						<div class="panel-body">
 							<img class="img-responsive" src="img/go.jpg" alt="Elon musk ante la audiencia" />
+							<div id="fecha">29/04/2017 | 17:02</div>
 						</div>
 						<div class="panel-footer clearfix">
 							<p>El año pasado ya habíamos hablado de Google y la adquisición de DeepMind, una compañía que estaba especializada en la investigación de la Inteligencia Artificial y con cuya tecnología la multinacional creó una IA que aprendía sola y era capaz de
@@ -139,8 +137,8 @@
 	</div>
 		<!--FIN Noticias-->
 
-		<script src="js/news.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/news.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 

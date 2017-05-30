@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tecnología del futuro</title>
-        <atom:link href="http://www.noviluni.com/news.html" rel="self" type="application/rss+xml" />
-        <link>http://www.noviluni.com/news.html</link>
+        <atom:link href="http://www.noviluni.com/index.html" rel="self" type="application/rss+xml" />
+        <link>http://www.noviluni.com/index.html</link>
         <description>Página web de noticias sobre lo último en tecnología.</description>
         <language>es-ES</language>
         <item>
             <title>Amazon ya a hecho pruebas para entregar sus paquetes con drones</title>
-            <link>http://www.noviluni.com/news2.html</link>
+            <link>../news1.html</link>
             <description>Nova notícia sobre...</description>
             <pubDate>Fri, 05 May 2017 22:54:49 EST</pubDate>
             <content></content>
