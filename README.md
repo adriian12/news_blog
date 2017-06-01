@@ -2,6 +2,7 @@
 Web simple de noticias construida con HTML, CSS, Bootstrap y jQuery.
 
 URL: https://rawgit.com/noviluni/news_blog/master/index.html
+
 URL del rss: https://rawgit.com/noviluni/news_blog/master/rss/rss.xml
 
 ### Autor: Marc Hernández Cabot
