@@ -60,6 +60,7 @@ Este ha sido el resultado:
 
 ### Posibles mejoras
 - Añadir botones de compartir ("me gusta" de Facebook, "tweet" de Twitter, etc.)
+- Arreglar un comportamiento indeseado cuando el contenido de una vista previa es demasiado larga y en lugar de aparecer dos noticias en cada linea aparece solo una (en determinadas situaciones de tamaño de pantalla muy concretas).
 
 
 ### Tecnologías utilizadas
