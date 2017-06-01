@@ -1,18 +1,68 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: url('../img/tierra-fondo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1, h2, h5, h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand, .address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+}
+
 .texto-blanco {
     color: white;
 }
 
-#fecha {
+.fecha {
     text-align: right;
-    color:darkblue;
+    color: darkblue;
     line-height: 54px;
     margin-bottom: -20px;
 }
 
 .contenedor-noticias {
-    position:absolute;
-    left:0px;
-    right:300px;
+    position: absolute;
+    left: 0px;
+    right: 300px;
     padding: 50px;
 }
 
@@ -24,26 +74,28 @@
     text-align: center;
 }
 
-.jumbotron h1, .jumbotron p  {
+.jumbotron h1, .jumbotron p {
     padding-left: 5%;
 }
 
+
 /*Anuncios*/
+
 #contenedor-anuncio-vertical {
     width: 30%;
 }
 
 #anuncios-vertical {
-    display:block;
-    width:300px;
-    height:100%;
-    position:absolute;
-    right:0px;
+    display: block;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    right: 0px;
 }
 
 .img-anuncio-v {
     width: 300px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
 
 #contenedor-anuncio-horizontal {
@@ -54,11 +106,11 @@
 }
 
 #anuncios-horizontal {
-    display:none;
+    display: none;
     background-color: white;
-    height:90px;
-    position:inherit;
-    bottom:0px;
+    height: 90px;
+    position: inherit;
+    bottom: 0px;
     width: 100%;
     margin: 0px;
     overflow: hidden;
@@ -69,31 +121,98 @@
     /*position: relative;
     left: 100%; /* move the whole width of the image to the right
     margin-left: -200%; /* magic! */
-    position: absolute; left: 50%; transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* FIN anuncios */
+
+
+/* Media queries */
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+    .navbar {
+        border-radius: 0;
+    }
+    .navbar-header {
+        display: none;
+    }
+    .navbar {
+        min-height: 0;
+    }
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255, 255, 255, 0.9);
+    }
+    .nav>li>a {
+        padding: 35px;
+    }
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
 }
 
 @media (min-width: 768px) {
     #anuncios-vertical {
-        display:block;
+        display: block;
     }
-
     #anuncios-horizontal {
-        display:none;
+        display: none;
     }
-
     .address-bar {
         display: block;
         margin: 0;
         padding: 0 0 40px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
         color: white !important;
     }
-
     /* Botón cargar más noticias */
     #mas-noticias {
         position: fixed;
@@ -105,60 +224,54 @@
 
 @media (max-width: 768px) {
     #anuncios-vertical {
-        display:none;
+        display: none;
     }
-
     #anuncios-horizontal {
-        display:block;
+        display: block;
     }
-
     .contenedor-noticias {
-        position:absolute;
-        left:0px;
-        right:0px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
         padding: 20px;
     }
-
     .address-bar {
-        display:none;
+        display: none;
     }
-
     /* Botón cargar más noticias */
     #mas-noticias {
         position: relative;
     }
-
     #boton-cont {
         width: 100%;
         position: fixed;
         bottom: 100px;
-    z-index: 10;
+        z-index: 10;
     }
     /* FIN Botón cargar más noticias */
-
 }
-/*FIN Anuncios*/
 
 
-
-
+/*FIN Media queries*/
 
 #titulo-importante {
-    color:white !important;
+    color: white !important;
     text-shadow: 2px 2px #000;
 }
 
 
 /* Modal opinión */
+
 .green {
     color: green;
 }
 
-.gi-4x{
+.gi-4x {
     font-size: 4em;
 }
-/* FIN Modal opinión*/
 
+
+/* FIN Modal opinión*/
 
 .panel-heading {
     font-size: 1.5em;

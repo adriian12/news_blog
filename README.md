@@ -58,8 +58,8 @@ Cuando se pasa a la versión móvil el subtítulo desaparece por cuestiones est�
 
 ### Herramientas utilizadas
 - Gimp
-- Img compressor
-- W3 validator
+- Optimizilla (compresor de imágenes): http://optimizilla.com/
+- W3 HTML validator: https://validator.w3.org/
 - W3C RSS Validator: https://validator.w3.org/feed/
 
 ### Tareas:
