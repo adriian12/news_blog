@@ -20,6 +20,29 @@ $(window).on("scroll", function() {
 });
 // FIN Cargar JSONs cuando se hace scroll (dos veces)
 
+// Cargar JSONs cuando se hace click en el botón
+$("#mas-noticias").on("click", function() {
+	if (noticias_sin_cargar_1) {
+        noticias_sin_cargar_1 = false;
+
+        $.getJSON("data/1.json", function(jsonObject) {
+            cargarNoticias(jsonObject);
+        });
+
+		$.getJSON("data/2.json", function(jsonObject) {
+			cargarNoticias(jsonObject);
+		});
+
+    } else if (noticias_sin_cargar_2) {
+                noticias_sin_cargar_2 = false;
+                $.getJSON("data/2.json", function(jsonObject) {
+                    cargarNoticias(jsonObject);
+                });
+    }
+});
+// FIN Cargar JSONs cuando se hace click en el botón
+
+
 
 
 // Dibujar noticia a partir de JSON
