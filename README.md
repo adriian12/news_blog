@@ -60,7 +60,7 @@ Cuando se pasa a la versión móvil el subtítulo desaparece por cuestiones est�
 - Gimp
 - Img compressor
 - W3 validator
-- validador de rss
+- W3C RSS Validator: https://validator.w3.org/feed/
 
 ### Tareas:
 - Maquetación, README.md con esquema del proyecto (foto del cuaderno).
