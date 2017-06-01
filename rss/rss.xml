@@ -8,16 +8,57 @@
         <language>es-ES</language>
         <item>
             <title>Amazon ya a hecho pruebas para entregar sus paquetes con drones</title>
-            <link>../news1.html</link>
-            <description>Nova notícia sobre...</description>
-            <pubDate>Fri, 05 May 2017 22:54:49 EST</pubDate>
-            <content></content>
+            <link>https://rawgit.com/noviluni/news_blog/master/news1.html</link>
+            <description><![CDATA[<p>Entras en <i>Amazon.com</i>, encuentras el producto que necesitas, haces click sobre <i>Prime Air</i>, y en menos de 30 minutos lo tienes en casa. ¿Parece algo surrealista? Pues parece que <i>Amazon</i> quiere demostrar que no.</p> <img class="img-responsive" src="https://rawgit.com/noviluni/news_blog/master/img/amazon-prime-air-drone.jpg" alt="Drone de Amazon"> <p> <i>Amazon</i> ha estado realizado diferentes experimentos para desarrollar lo que cree que deteminará el futuro en la entrega de paquetes y ya lo ha conseguido. Ahora solo necesita que las leyes permitan ponerlo en marcha. Su funcionamiento es el siguiente: En el momento que el cliente compra un producto, este sale de un centro de logística cercano, pero no como cabría esperar, en furgoneta o en coche, sino que se carga en un dron eléctrico completamente autónomo y pre-programado con las coordenadas de entrega.</p><p>El dron hace uso de un sistema de IA y, guiado por GPS, vuela siempre por debajo de los 120 metros de altura hasta que llega al destino, donde el cliente ha colocado una pequeña pista de aterrizaje (una diana característicapara el dron) en el lugar exacto que desea recibir el paquete.</p><p>¡Es verdaderamente sorprendente!</p><p>Puedes ver todo el proceso en el siguiente video promocional de <i>Amazon</i>.</p><br/><p>Por el momento, el único límite es el peso de la mercancía, que en este momento es de 2,2 Kg de peso, y las leyes todavía por aprobar de muchos países, pero se estima que dentro de tres años esto dejará de ser un simple experimento y será la realidad diaria de muchos.</p>]]></description>
+            <pubDate>Mon, 15 May 2017 10:09:49 EST</pubDate>
         </item>
         <item>
-            <title>Segona notícia</title>
-            <link>http://www.noviluni.com/news2.html</link>
-            <description>Nova notícia sobre...</description>
-            <pubDate>Mon, 01 May 2017 12:50:02 GMT</pubDate>
+            <title>Tesla presentará en septiembre el prototipo de camión eléctrico</title>
+            <link>https://rawgit.com/noviluni/news_blog/master/news2.html</link>
+            <description><![CDATA[<h2>Tesla presentará en septiembre el prototipo de camión eléctrico</h2><p>Elon Musk acudió este jueves a las redes sociales para anunciar que el próximo mes de septiembre presentará el primer prototipo de su próxima creación: un camión eléctrico. El fundador y consejero delegado de Tesla ya anticipó el pasado mes de julio que entre sus planes de futuro para la compañía se encontraba el desarrollo de un vehículo para el transporte de mercancías.</p><img class="img-responsive" src="https://rawgit.com/noviluni/news_blog/master/img/elon-musk.jpg" alt="Elon musk"><p>“El equipo está haciendo un trabajo magnífico”, comentó en Twitter. Se trataría de una cabeza tractora, que de momento bautiza como Tesla Semi. El combustible es el mayor capítulo de gasto para los operadores de camiones. Musk asegura que el vehículo llevará este medio de transporte a “otro nivel”. No solo permitirá reducir costes, también mejorará la seguridad con los sistemas de conducción autónoma.</p><p>Pero para llevar a la realidad este proyecto, necesita mucho más que un prototipo. Tesla no da detalles de cómo será la línea de ensamblaje de estos camiones eléctricos, que es muy distinta a la de un utilitario, ni de las baterías que necesitarán para propulsar el ingenio. Tampoco se habla del precio que tendrá el camión. Y hay otros compañías que trabajan un una tecnología similar, como Nikola Motors.</p><p>La ambición de Musk, como indica en su plan maestro, es que Tesla cubra todas las formas posibles de transporte terrestre. Con este propósito, en julio presentará el diseño final del Model 3, el coche con el que quiere llegar al mercado de masas y que se sumará al sedan de lujo Model S y el todocamino Model X. En los próximos dos años presentará una camioneta tipo pickup y una nueva versión de su deportivo Roadster.</p>]]></description>
+            <pubDate>Wed, 03 May 2017 12:56:02 GMT</pubDate>
+        </item>
+        <item>
+            <title>El mejor jugador de Go pierde frente a la inteligencia artificial de Google</title>
+            <link>https://rawgit.com/noviluni/news_blog/master/news3.html</link>
+            <description><![CDATA[<img class="img-responsive" src="https://rawgit.com/noviluni/news_blog/master/img/go.jpg" alt="Juego de mesa Go"><p>El año pasado ya habíamos hablado de Google y la adquisición de DeepMind, una compañía que estaba especializada en la investigación de la Inteligencia Artificial y con cuya tecnología la multinacional creó una IA que aprendía sola y era capaz de ganar a los clásicos de Atari. Ahora esta Inteligencia Artificial ha dado un paso de gigante: la IA de Google ha conseguido vencer al campeón europeo del antiguo juego de mesa chino Go.</p>]]></description>
+            <pubDate>Sat, 29 Apr 2017 17:02:02 GMT</pubDate>
+        </item>
+        <item>
+            <title>¿Móviles que se doblan?</title>
+            <link>https://rawgit.com/noviluni/news_blog/master/news4.html</link>
+            <description><![CDATA[<img class="img-responsive" src="https://rawgit.com/noviluni/news_blog/master/img/movil_doblado.jpg" alt="Un móvil que se dobla"><p>Mucha gente da por hecho que los teléfonos no volverán a ser pequeños porque necesitamos cada vez pantallas más grandes, de entre 5 y 6 pulgadas en algunos casos. Es posible que, si Samsung y Apple lanzan los teléfonos plegables que tienen patentados, esto no sea del todo cierto.</p>]]></description>
+            <pubDate>Thu, 20 Apr 2017 18:25:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>Facebook Spaces, llega el Facebook en realidad virtual que estábamos esperando</title>
+            <link>https://rawgit.com/noviluni/news_blog/master/news5.html</link>
+            <description><![CDATA[<img class="img-responsive" src="https://rawgit.com/noviluni/news_blog/master/img/facebook-spaces.jpg" alt="Realidad Virtual by Facebook"><p>Facebook se ha centrado hoy mucho en la realidad aumentada, en su nueva plataforma con la que pretende mirar al futuro. Pero la realidad aumentada y la realidad virtual van de la mano, como se ha demostrado hoy.</p>]]></description>
+            <pubDate>Fri, 07 Apr 2017 10:34:12 GMT</pubDate>
+        </item>
+        <item>
+            <title>Las redes sociales tendrán que cambiar</title>
+            <link>https://rawgit.com/noviluni/news_blog/master/news6.html</link>
+            <description><![CDATA[<img class="img-responsive" src="https://rawgit.com/noviluni/news_blog/master/img/twitter_muerto.jpg" alt="Twitter muerto"><p>Facebook y Twitter tubieron un mal año: la primera más en cuestiones de imagen y la segunda, en todos los sentidos posibles. Entre las acusaciones de haber jugado un papel involuntario, pero trascendental, en las Elecciones de EEUU; de no actuar contra el acoso y de publicar noticias falsas a punta de pala.</p>]]></description>
+            <pubDate>Wed, 29 Mar 2017 15:30:11 GMT</pubDate>
+        </item>
+        <item>
+            <title>Inteligencia artificial hasta en la sopa</title>
+            <link>https://rawgit.com/noviluni/news_blog/master/news7.html</link>
+            <description><![CDATA[<img class="img-responsive" src="https://rawgit.com/noviluni/news_blog/master/img/asistentes_personales.jpg" alt="Asistentes personales que utilizan IA"><p>Asistentes personales que utilizan IA", "fecha": "06/03/2017 | 11:45", "descripcion":"Google, Apple, Facebook, Samsung... Todas están desarrollando lo que, de momento, se denominan 'asistentes' personales para ayudarnos en tareas cotidianas y en el uso de nuestros móviles. En realidad, lo que hay detrás son inteligencias artificiales con un potencial inmenso.</p>]]></description>
+            <pubDate>Mon, 06 Mar 2017 11:45:02 GMT</pubDate>
+        </item>
+        <item>
+            <title>Espectacular llegada en patín-dron del balón de un partido de fútbol en Portugal</title>
+            <link>https://rawgit.com/noviluni/news_blog/master/news8.html</link>
+            <description><![CDATA[<img class="img-responsive" src="https://rawgit.com/noviluni/news_blog/master/img/hombre-dron.jpg" alt="Hombre sobre un dron"><p>La final de Copa de Portugal de fútbol este domingo un piloto de monopatín-dron surcó los aires con el esférico en las manos y aterrizó sobre el césped para poner inicio al partido.</p>]]></description>
+            <pubDate>Tue, 07 Feb 2017 15:30:01 GMT</pubDate>
+        </item>
+        <item>
+            <title>Un poemario escrito por una inteligencia artificial sale al mercado</title>
+            <link>https://rawgit.com/noviluni/news_blog/master/news9.html</link>
+            <description><![CDATA[<img class="img-responsive" src="https://rawgit.com/noviluni/news_blog/master/img/libro.jpg" alt="libro"><p>Facebook y Twitter tubieron un mal año: la primera más en cuestiones de imagen y la segunda, en todos los sentidos posibles. Entre las acusaciones de haber jugado un papel involuntario, pero trascendental, en las Elecciones de EEUU; de no actuar contra el acoso y de publicar noticias falsas a punta de pala.</p>]]></description>
+            <pubDate>Mon, 20 Feb 2017 18:23:42 GMT</pubDate>
         </item>
     </channel>
 </rss>
